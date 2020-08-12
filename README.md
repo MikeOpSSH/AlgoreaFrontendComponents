@@ -1,3 +1,3 @@
 # whats-this
 
-You can use this to ret
+You can use this to retrie
