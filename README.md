@@ -1,3 +1,3 @@
 # whats-this
 
-You can use this to retrieve the cur
+You can use this to retrieve the curre
