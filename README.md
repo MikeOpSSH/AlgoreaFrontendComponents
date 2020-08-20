@@ -1,3 +1,3 @@
 # whats-this
 
-You can use this to retrieve the curre
+You can use this to retrieve the current
