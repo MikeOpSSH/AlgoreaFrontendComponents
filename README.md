@@ -1,3 +1,3 @@
 # whats-this
 
-You can use this to retrieve the current price f
+You can use this to retrieve the current price for 
