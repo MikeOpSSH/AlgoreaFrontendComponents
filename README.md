@@ -2,4 +2,4 @@
 
 You can use this to retrieve the current price for an crypto currency
 
-I used thi
+I used this i
