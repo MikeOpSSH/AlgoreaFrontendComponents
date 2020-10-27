@@ -7,4 +7,4 @@ to publish this as an own package
 
 ## How to use it
 ```go
-import "https://github.c
+import "https://github.com/
