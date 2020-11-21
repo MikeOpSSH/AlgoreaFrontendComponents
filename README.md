@@ -9,3 +9,4 @@ to publish this as an own package
 ```go
 import "https://github.com/mnlwldr/coinbase"
 ```
+
