@@ -10,4 +10,4 @@ to publish this as an own package
 import "https://github.com/mnlwldr/coinbase"
 ```
 
-## Usa
+## Usag
