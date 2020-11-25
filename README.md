@@ -11,4 +11,4 @@ import "https://github.com/mnlwldr/coinbase"
 ```
 
 ## Usage
-```
+```go
