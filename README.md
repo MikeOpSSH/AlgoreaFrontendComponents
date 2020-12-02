@@ -12,4 +12,4 @@ import "https://github.com/mnlwldr/coinbase"
 
 ## Usage
 ```go
-response, err := coi
+response, err := coinb
