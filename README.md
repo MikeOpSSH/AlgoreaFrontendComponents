@@ -13,4 +13,4 @@ import "https://github.com/mnlwldr/coinbase"
 ## Usage
 ```go
 response, err := coinbase.Get("SHIB-EUR")
-if 
+if err
