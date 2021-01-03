@@ -14,3 +14,4 @@ import "https://github.com/mnlwldr/coinbase"
 ```go
 response, err := coinbase.Get("SHIB-EUR")
 if err != nil {
+	
