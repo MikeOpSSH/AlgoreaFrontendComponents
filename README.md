@@ -16,4 +16,4 @@ response, err := coinbase.Get("SHIB-EUR")
 if err != nil {
 	log.Println(err)
 }
-fmt.
+fmt.Pr
