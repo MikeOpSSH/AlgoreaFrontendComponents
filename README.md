@@ -19,4 +19,4 @@ if err != nil {
 fmt.Printf("%.7f\n", response.Amount)
 ```
 
-## 
+## Out
