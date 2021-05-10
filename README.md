@@ -21,4 +21,5 @@ fmt.Printf("%.7f\n", response.Amount)
 
 ## Output
 ```sh
-0.00002
+0.0000253
+`
