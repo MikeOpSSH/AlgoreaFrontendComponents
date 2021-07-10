@@ -24,4 +24,4 @@ fmt.Printf("%.7f\n", response.Amount)
 0.0000253
 ```
 
-[![Go Reference](https://pkg.go.dev/
+[![Go Reference](https://pkg.go.dev/ba
