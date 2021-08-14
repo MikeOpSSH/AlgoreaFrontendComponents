@@ -24,4 +24,4 @@ fmt.Printf("%.7f\n", response.Amount)
 0.0000253
 ```
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/mnlwldr/coinbase.svg)](https://pkg.go.dev/github.com/mnlwldr/coin
+[![Go Reference](https://pkg.go.dev/badge/github.com/mnlwldr/coinbase.svg)](https://pkg.go.dev/github.com/mnlwldr/coinbase
