@@ -21,3 +21,8 @@ type Response struct {
 }
 
 func buildUrl(coin string) string {
+	return fmt.Sprintf("%s/%s/%s", ApiUrl, coin, TYPE)
+}
+
+func buildUrlWithDate(coin, date string) string {
+	return fmt.Sprintf("%s/%s/%s?date=%s", ApiUrl, coin, TYPE, date)
