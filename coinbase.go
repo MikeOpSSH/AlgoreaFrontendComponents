@@ -16,3 +16,8 @@ const (
 
 type Response struct {
 	Amount   float64
+	Base     string
+	Currency string
+}
+
+func buildUrl(coin string) string {
