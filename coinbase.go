@@ -29,3 +29,6 @@ func buildUrlWithDate(coin, date string) string {
 }
 
 func get(url string) ([]byte, error) {
+	response, err := http.Get(url)
+	if err != nil {
+		return []byte{}, err
