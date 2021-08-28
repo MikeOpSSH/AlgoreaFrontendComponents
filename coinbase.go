@@ -36,3 +36,10 @@ func get(url string) ([]byte, error) {
 	body, err := ioutil.ReadAll(response.Body)
 	if err != nil {
 		return []byte{}, err
+	}
+	return body, nil
+}
+
+// GetWithDate The coin abbreviation is passed as parameter "coin".
+// The coin abbreviation is a currency pair. For example: "SHIB-EUR" or "BTC-USD"
+// The date must be in the format YYYY-MM-DD
