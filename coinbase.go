@@ -32,3 +32,6 @@ func get(url string) ([]byte, error) {
 	response, err := http.Get(url)
 	if err != nil {
 		return []byte{}, err
+	}
+	body, err := ioutil.ReadAll(response.Body)
+	if err != nil {
