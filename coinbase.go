@@ -26,3 +26,6 @@ func buildUrl(coin string) string {
 
 func buildUrlWithDate(coin, date string) string {
 	return fmt.Sprintf("%s/%s/%s?date=%s", ApiUrl, coin, TYPE, date)
+}
+
+func get(url string) ([]byte, error) {
