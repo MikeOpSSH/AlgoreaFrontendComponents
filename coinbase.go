@@ -43,3 +43,4 @@ func get(url string) ([]byte, error) {
 // GetWithDate The coin abbreviation is passed as parameter "coin".
 // The coin abbreviation is a currency pair. For example: "SHIB-EUR" or "BTC-USD"
 // The date must be in the format YYYY-MM-DD
+func GetWithDate(coin, date string) (Response, error) {
