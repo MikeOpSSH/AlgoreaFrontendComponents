@@ -44,3 +44,6 @@ func get(url string) ([]byte, error) {
 // The coin abbreviation is a currency pair. For example: "SHIB-EUR" or "BTC-USD"
 // The date must be in the format YYYY-MM-DD
 func GetWithDate(coin, date string) (Response, error) {
+	url := buildUrlWithDate(coin, date)
+	return buildResponse(url)
+}
