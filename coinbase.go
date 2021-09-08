@@ -57,3 +57,5 @@ func Get(coin string) (Response, error) {
 
 func buildResponse(url string) (Response, error) {
 	response, err := get(url)
+	if err != nil {
+		return Response{}, err
