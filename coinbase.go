@@ -54,3 +54,6 @@ func Get(coin string) (Response, error) {
 	url := buildUrl(coin)
 	return buildResponse(url)
 }
+
+func buildResponse(url string) (Response, error) {
+	response, err := get(url)
