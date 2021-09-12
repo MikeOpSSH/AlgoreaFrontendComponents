@@ -62,3 +62,8 @@ func buildResponse(url string) (Response, error) {
 	}
 
 	var r interface{}
+	if err := json.Unmarshal(response, &r); err != nil {
+		return Response{}, err
+	}
+
+	amount := r.(map[string]interface{})["data"].(map[string]interface{})["amount"].(string)
