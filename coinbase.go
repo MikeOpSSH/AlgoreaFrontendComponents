@@ -60,3 +60,5 @@ func buildResponse(url string) (Response, error) {
 	if err != nil {
 		return Response{}, err
 	}
+
+	var r interface{}
