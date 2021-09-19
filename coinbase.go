@@ -77,3 +77,5 @@ func buildResponse(url string) (Response, error) {
 	}
 
 	return Response{
+		Amount:   amountF64,
+		Base:     base,
