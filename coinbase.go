@@ -69,3 +69,8 @@ func buildResponse(url string) (Response, error) {
 	amount := r.(map[string]interface{})["data"].(map[string]interface{})["amount"].(string)
 	base := r.(map[string]interface{})["data"].(map[string]interface{})["base"].(string)
 	currency := r.(map[string]interface{})["data"].(map[string]interface{})["currency"].(string)
+
+	amountF64, err := strconv.ParseFloat(amount, 64)
+
+	if err != nil {
+		return Response{}, err
