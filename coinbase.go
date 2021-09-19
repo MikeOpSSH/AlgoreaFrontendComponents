@@ -74,3 +74,6 @@ func buildResponse(url string) (Response, error) {
 
 	if err != nil {
 		return Response{}, err
+	}
+
+	return Response{
