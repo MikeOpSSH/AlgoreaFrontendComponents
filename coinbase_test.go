@@ -1,1 +1,1 @@
-package coinb
+package coinbase
