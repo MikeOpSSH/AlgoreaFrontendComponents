@@ -1,4 +1,4 @@
 package coinbase
 
 import (
-	
+	"fmt
