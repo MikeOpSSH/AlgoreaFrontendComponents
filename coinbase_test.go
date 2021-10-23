@@ -2,4 +2,4 @@ package coinbase
 
 import (
 	"fmt"
-	"testin
+	"testing"
