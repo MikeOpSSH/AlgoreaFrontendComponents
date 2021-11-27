@@ -7,4 +7,4 @@ import (
 
 func TestGet(t *testing.T) {
 
-	wantCoin := "SH
+	wantCoin := "SHIB"
