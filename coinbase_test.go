@@ -8,3 +8,4 @@ import (
 func TestGet(t *testing.T) {
 
 	wantCoin := "SHIB"
+	wa
