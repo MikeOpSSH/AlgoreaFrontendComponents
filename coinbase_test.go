@@ -8,4 +8,4 @@ import (
 func TestGet(t *testing.T) {
 
 	wantCoin := "SHIB"
-	wantCurrency := "EU
+	wantCurrency := "EUR"
