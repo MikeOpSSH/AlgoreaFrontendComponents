@@ -9,3 +9,5 @@ func TestGet(t *testing.T) {
 
 	wantCoin := "SHIB"
 	wantCurrency := "EUR"
+
+	re
