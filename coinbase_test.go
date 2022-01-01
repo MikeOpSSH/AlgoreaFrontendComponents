@@ -10,4 +10,4 @@ func TestGet(t *testing.T) {
 	wantCoin := "SHIB"
 	wantCurrency := "EUR"
 
-	response, _ := Get(fmt.S
+	response, _ := Get(fmt.Sp
