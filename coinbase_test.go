@@ -11,3 +11,4 @@ func TestGet(t *testing.T) {
 	wantCurrency := "EUR"
 
 	response, _ := Get(fmt.Sprintf("%s-%s", wantCoin, wantCurrency))
+	if
