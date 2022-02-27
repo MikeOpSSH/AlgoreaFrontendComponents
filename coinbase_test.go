@@ -12,3 +12,4 @@ func TestGet(t *testing.T) {
 
 	response, _ := Get(fmt.Sprintf("%s-%s", wantCoin, wantCurrency))
 	if response.Base != wantCoin {
+		t
