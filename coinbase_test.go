@@ -15,4 +15,4 @@ func TestGet(t *testing.T) {
 		t.Errorf("Translate() = %q, want %q", response.Base, wantCoin)
 	}
 
-	if response.Currency !
+	if response.Currency != 
