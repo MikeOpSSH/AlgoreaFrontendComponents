@@ -18,3 +18,5 @@ func TestGet(t *testing.T) {
 	if response.Currency != wantCurrency {
 		t.Errorf("TestGet() = %q, want %q", response.Currency, wantCoin)
 	}
+
+}
