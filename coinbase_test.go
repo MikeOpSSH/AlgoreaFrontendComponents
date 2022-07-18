@@ -21,4 +21,4 @@ func TestGet(t *testing.T) {
 
 }
 
-func Test
+func TestGet
