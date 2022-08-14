@@ -24,4 +24,4 @@ func TestGet(t *testing.T) {
 func TestGetWithDate(t *testing.T) {
 
 	wantCoin := "SHIB"
-	wantCurrency
+	wantCurrency 
