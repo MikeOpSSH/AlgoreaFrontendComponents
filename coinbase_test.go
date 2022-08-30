@@ -25,4 +25,4 @@ func TestGetWithDate(t *testing.T) {
 
 	wantCoin := "SHIB"
 	wantCurrency := "EUR"
-	wantAmou
+	wantAmount :
