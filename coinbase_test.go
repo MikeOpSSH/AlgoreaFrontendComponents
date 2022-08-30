@@ -26,3 +26,5 @@ func TestGetWithDate(t *testing.T) {
 	wantCoin := "SHIB"
 	wantCurrency := "EUR"
 	wantAmount := 0.0000190
+
+	r
