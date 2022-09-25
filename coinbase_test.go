@@ -27,4 +27,4 @@ func TestGetWithDate(t *testing.T) {
 	wantCurrency := "EUR"
 	wantAmount := 0.0000190
 
-	response, _ := GetWithD
+	response, _ := GetWithDate
