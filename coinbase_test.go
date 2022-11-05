@@ -28,4 +28,4 @@ func TestGetWithDate(t *testing.T) {
 	wantAmount := 0.0000190
 
 	response, _ := GetWithDate(fmt.Sprintf("%s-%s", wantCoin, wantCurrency), "2022-02-01")
-	if res
+	if respons
