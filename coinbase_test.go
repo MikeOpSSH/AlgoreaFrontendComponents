@@ -30,4 +30,4 @@ func TestGetWithDate(t *testing.T) {
 	response, _ := GetWithDate(fmt.Sprintf("%s-%s", wantCoin, wantCurrency), "2022-02-01")
 	if response.Base != wantCoin {
 		t.Errorf("TestGetWithDate() = %q, want %q", response.Base, wantCoin)
-	
+	}
