@@ -31,3 +31,5 @@ func TestGetWithDate(t *testing.T) {
 	if response.Base != wantCoin {
 		t.Errorf("TestGetWithDate() = %q, want %q", response.Base, wantCoin)
 	}
+
+	
