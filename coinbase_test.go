@@ -33,4 +33,4 @@ func TestGetWithDate(t *testing.T) {
 	}
 
 	if response.Currency != wantCurrency {
-		t.Err
+		t.Errorf
