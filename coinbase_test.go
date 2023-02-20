@@ -37,4 +37,4 @@ func TestGetWithDate(t *testing.T) {
 	}
 
 	if response.Amount != wantAmount {
-		t.Errorf("TestGetWith
+		t.Errorf("TestGetWithDa
