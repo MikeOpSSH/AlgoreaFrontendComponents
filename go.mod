@@ -1,1 +1,1 @@
-module github.com/m
+module github.com/mn
