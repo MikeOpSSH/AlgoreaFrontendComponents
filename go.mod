@@ -1,1 +1,1 @@
-module github.com/mnlwld
+module github.com/mnlwldr/
