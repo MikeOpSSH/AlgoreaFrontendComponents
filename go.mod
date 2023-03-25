@@ -1,1 +1,1 @@
-module github.com/mnlwldr/coinba
+module github.com/mnlwldr/coinbase
